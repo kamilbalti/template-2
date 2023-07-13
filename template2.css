@@ -1,0 +1,170 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    z-index: 0;
+}
+.navbar{
+    display: flex;
+    flex-direction: row;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16), 0 2px 10px 0 rgba(0,0,0,0.12);
+    background-color: #f44336;
+}
+a{
+    text-align: center;
+    color: white;
+    font-size: 18px;
+    font-family: "Montserrat", sans-serif;
+    padding: 12px 24px;
+    line-height: 1.5;
+    cursor: pointer;
+}
+a:hover{
+    background-color: white;
+    color: black;
+}
+.home{
+    background-color: white;
+    color: black;
+}
+.home:hover{
+    background-color: #ccc !important;
+}
+.redDiv{
+    background-color: #f44336;
+    height: 519px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.start{
+    color: white;
+    font-family: "Montserrat", sans-serif;
+    font-size: 64px;
+    margin-top: 68px;
+    font-weight: 500;
+}
+.intro{
+    color: white;
+    font-family: "Lato", sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    margin-top: 36px;
+}
+.button{
+    width: 151px;
+    height: 51px;
+    background-color: black;
+    color: white;
+    border: none;
+    font-family: "Montserrat", sans-serif;
+    font-size: 18px;
+    margin: 43.8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.parentDiv{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 75px 0 79px;
+    height: 512px;
+    /* background-color: blue !important; */
+}
+.childDiv{
+    width: 48%;  
+}
+.icon{
+    font-size: 12.5em;
+    color: #f44336;
+    /* padding: 67px; */
+}
+.icon2{
+    padding-right: 15px;
+}
+.heading{
+    font-size: 36px;
+    font-weight: 500;
+    font-family: "Montserrat", sans-serif;
+    margin-top: 4px;
+}
+.blackCol{
+    margin-top: 47px;
+    font-size: 18px;
+    line-height: 1.5;
+    font-family: "Lato", sans-serif;
+    color: black;
+}
+.greyCol{
+    margin-top: 47px;
+    font-size: 15px;
+    line-height: 1.5;
+    font-family: "Lato", sans-serif;
+    color: grey;
+}
+.iconDiv{
+    width: 333px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding-left: 6px;
+    padding-bottom: 3.2em;
+}
+.iconDiv2{
+    padding-right: 1px;
+}
+.greyParentDiv{
+    background-color: #f1f1f1;
+}
+.childDiv2{
+    width: 48.8%;
+}
+.darkGrayBg{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    color: white;
+    opacity: 0.6;
+    height: 196px;
+    width: 100%;
+    font-size: 24px;
+    font-weight: 100;
+    font-family: "Montserrat", sans-serif;
+}
+.iconIntroMainDiv{
+    opacity: 0.6;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 281px;
+}
+.allIconDiv{
+    margin-top: 19px;
+    font-size: 24px;
+}
+.para{
+    margin-top: 52px;
+    font-size: 15px;
+    font-family: "Lato", sans-serif;
+}
+b{
+    font-weight: 100;
+    text-decoration: underline;
+}
+i{
+    letter-spacing: -1.4px;
+    margin: 0 !important;
+    padding: 0 !important;
+}
