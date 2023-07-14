@@ -19,7 +19,6 @@ body{
 .mobNav{
     display: flex;
     flex-direction: row !important;
-    /* width: 45px; */
 }
 a, .hidden{
     text-align: center;
@@ -270,5 +269,11 @@ i{
         padding: 12px 24px;
         display: block;
         font-family: "Montserrat", sans-serif;
+    }
+    .darkGrayBg{
+        padding: 61px 0;
+    }
+    .quote{
+            padding: 19px 20px 20px;
     }
 }
