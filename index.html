@@ -9,12 +9,17 @@
     <title>Template 2</title>
 </head>
 <body>
-    <div class="navbar">
-        <a class="home">Home</a>
-        <a>Link 1</a>
-        <a>Link 2</a>
-        <a>Link 3</a>
-        <a>Link 4</a>
+    <div id="navbar" class="navbar">
+        <div class="mobNav">
+            <a class="home">Home</a>
+            <i onclick="mobView()" class="fa fa-bars hidden"></i>
+        </div>
+        <div id="allLink" class="allLink">
+            <a>Link 1</a>
+            <a>Link 2</a>
+            <a>Link 3</a>
+            <a>Link 4</a>
+        </div>
     </div>
     <div class="redDiv">
         <h1 class="start">START PAGE</h1>
@@ -39,26 +44,28 @@
             <i class="fa fa-anchor w3-padding-64 w3-text-red icon"></i>
         </div>
     </div>
-    <div class="parentDiv greyParentDiv">
-        <div class="iconDiv iconDiv2">
-            <i class="fa fa-coffee w3-padding-64 w3-text-red w3-margin-right icon icon2"></i>
-        </div>
-        <div class="childDiv childDiv2">
-            <h1 class="heading">Lorem Ipsum</h1>
-            <p class="blackCol">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt 
-            ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco 
-            laboris nisi ut aliquip ex ea commodo consequat.</p>
-            <p class="greyCol">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt 
-            ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco 
-            laboris nisi ut aliquip ex ea commodo consequat. Excepteur sint occaecat cupidatat non 
-            proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur 
-            adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim 
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo 
-            consequat.</p>
+    <div class="greyParentDiv">
+        <div class="parentDiv greyParentDiv">
+            <div class="iconDiv iconDiv2">
+                <i class="fa fa-coffee w3-padding-64 w3-text-red w3-margin-right icon icon2"></i>
+            </div>
+            <div class="childDiv childDiv2">
+                <h1 class="heading">Lorem Ipsum</h1>
+                <p class="blackCol">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt 
+                    ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco 
+                    laboris nisi ut aliquip ex ea commodo consequat.</p>
+                <p class="greyCol">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt 
+                    ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco 
+                    laboris nisi ut aliquip ex ea commodo consequat. Excepteur sint occaecat cupidatat non 
+                    proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur 
+                    adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim 
+                ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo 
+                consequat.</p>
+            </div>
         </div>
     </div>
     <div class="darkGrayBg">
-        <p>Quote of the day: live life</p>
+        <p class="quote">Quote of the day: live life</p>
     </div>
     <div class="iconIntroMainDiv">
         <div class="allIconDiv">
@@ -72,4 +79,19 @@
         <p class="para">Powered by <b>w3.css</b></p>
     </div>
 </body>
+<script>
+    let check = 2;
+    function mobView(){
+        if(check % 2 === 0){
+            document.getElementById('navbar').className += " navbarList";
+            document.getElementById('allLink').className += " visible";
+        }
+        else{
+            document.getElementById('navbar').className = "navbar"
+            document.getElementById('allLink').className = "allLink";
+        }
+        check = check + 1;
+
+    }
+</script>
 </html>
