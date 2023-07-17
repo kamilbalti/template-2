@@ -130,28 +130,18 @@ a:hover{
     display: flex;
     justify-content: center;
     text-align: center !important;
-    /* background-color: green; */
-    /* padding: 10px; */
 }
 .iconDiv{
     width: 33.3%;
-    /* background-color: blue; */
     display: flex;
     flex-direction: row;
-    /* align-items: center; */
     justify-content: center;
     padding: 64px 32.5px;
     float: left;
-    /* padding-right: 22px; */
-    /* background-color: coral; */
-    /* height: 20.5em; */
     letter-spacing: 0;
 }
 .iconDiv2{
-    /* padding-right: 0; */
     padding-left: 16px;
-    /* width: 33.33%; */
-    /* padding: 59px 66px 60px 48px; */
 }
 .greyParentDiv{
     width: 100%;
@@ -221,7 +211,6 @@ i{
     .childDiv{
         width: 100%;
         padding: 10px 0;
-        /* padding-top: 10px; */
     }
     .blackCol{
         margin-top: 43.5px;
@@ -232,14 +221,9 @@ i{
         padding: 67px 0;
     }
     .iconDiv2{
-        /* padding: 10px; */
-        /* padding-bottom: 0; */
         padding: 67px 0 58px;
         padding-right: 18px;
     }
-    /* .greyParentDiv{
-        padding: 120px 0;
-    } */
     .parentDiv{
         padding-top: 59px;
     }
