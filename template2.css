@@ -91,14 +91,17 @@ a:hover{
 .parentDiv{
     display: flex;
     flex-direction: row;
-    padding: 64px 0;
+    padding: 64px 0;    
     max-width: 980px;
     margin-left: auto;
     margin-right: auto;
 }
 .childDiv{
-    width: 66.66%;
-    padding: 11px 0 15px;
+    width: 66.6%;
+    padding: 11px 0 15px 0;
+}
+.childDiv2{
+    padding: 11px 0 15px 0; 
 }
 .heading{
     font-size: 36px;
@@ -121,20 +124,34 @@ a:hover{
     color: grey;
 }
 .icon{
-    font-size: 12.5em;
+    font-size: 200px;
     color: #f44336;
-    padding: 64px;
+    padding: 64px 0;
+    display: flex;
+    justify-content: center;
+    text-align: center !important;
+    /* background-color: green; */
+    /* padding: 10px; */
 }
 .iconDiv{
+    width: 33.3%;
+    /* background-color: blue; */
     display: flex;
     flex-direction: row;
-    align-items: center;
+    /* align-items: center; */
     justify-content: center;
-    height: 20.5em;
-    padding: 60px 64px 60px 64px;
+    padding: 64px 32.5px;
+    float: left;
+    /* padding-right: 22px; */
+    /* background-color: coral; */
+    /* height: 20.5em; */
+    letter-spacing: 0;
 }
 .iconDiv2{
-    padding: 59px 66px 60px 48px;
+    /* padding-right: 0; */
+    padding-left: 16px;
+    /* width: 33.33%; */
+    /* padding: 59px 66px 60px 48px; */
 }
 .greyParentDiv{
     width: 100%;
