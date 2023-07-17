@@ -220,17 +220,26 @@ i{
     }
     .childDiv{
         width: 100%;
-        padding: 16px;
-        padding-top: 10px;
+        padding: 10px 0;
+        /* padding-top: 10px; */
     }
     .blackCol{
-        margin-top: 42px;
+        margin-top: 43.5px;
+        line-height: 1.5;
+    }
+    .iconDiv{
+        width: 100%;
+        padding: 67px 0;
     }
     .iconDiv2{
-        padding: 10px;
-        padding-bottom: 0;
-        padding-right: 28px;
+        /* padding: 10px; */
+        /* padding-bottom: 0; */
+        padding: 67px 0 58px;
+        padding-right: 18px;
     }
+    /* .greyParentDiv{
+        padding: 120px 0;
+    } */
     .parentDiv{
         padding-top: 59px;
     }
@@ -288,6 +297,7 @@ i{
         font-family: "Montserrat", sans-serif;
     }
     .darkGrayBg{
+        margin-top: 5px;
         padding: 61px 0;
     }
     .quote{
